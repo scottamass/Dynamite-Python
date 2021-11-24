@@ -10,5 +10,6 @@ class DynamiteBot:
             return 'D'
 
         options = ['R', 'P', 'S']
+        #options = ['R']
 
         return random.choice(options)

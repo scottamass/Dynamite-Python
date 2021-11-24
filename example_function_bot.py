@@ -1,2 +1,6 @@
+import random
+
+choice= [ "P", "R","D"]
+
 def make_move(rounds):
-    return 'S'
+    return random.choice(choice)
